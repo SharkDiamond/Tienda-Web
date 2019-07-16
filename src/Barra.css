@@ -1,0 +1,45 @@
+
+.Letra{
+  
+      font-family: 'Righteous', cursive;
+    font-size: 20px;
+    
+    }
+    .letra{
+
+      font-family: 'Righteous', cursive;
+
+    }
+
+    .letra_texto{
+      
+      font-family: 'Righteous', cursive;
+      font-size: 60px;
+color: rgb(4, 71, 110);
+    }
+
+
+    .fondo_mensaje{
+
+background-color: rgba(27, 233, 252, 0.308);
+
+
+    }
+
+
+.tamaño_cartas{
+
+width: 350px;
+height: 1px;
+
+
+
+}
+
+.tamaño{
+width: 1200px;
+height: 450px;
+
+}
+
+
