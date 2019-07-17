@@ -33,10 +33,10 @@ this.state={};
 
 <Barra/>
 <hr/>
-<div className="m-5 container justify-content-center">
+<div className=" container justify-content-center">
 
 
-<Mensaje texto="Bienvenido a tecnologic tu tienda de confianza"/>
+<Mensaje texto="Bienvenido A Lutius Tu Tienda De Confianza"/>
 <GrupoCartas/>
 <Slider/>
 <PiePagina/>
