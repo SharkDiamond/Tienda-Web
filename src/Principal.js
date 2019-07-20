@@ -38,7 +38,7 @@ this.state={};
 
 <Mensaje texto="Bienvenido A Lutius Tu Tienda De Confianza"/>
 <GrupoCartas/>
-<Slider/>
+<div className="m-5"><Slider/></div>
 <PiePagina/>
 
 
