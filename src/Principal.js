@@ -5,6 +5,7 @@ import  Mensaje  from './Mensaje.js';
 import  GrupoCartas  from './GrupoCartas.js';
 import Slider  from './Slider.js';
 import  PiePagina  from './PiePagina.js';
+import BarraResponsive from './BarraResponsive';
 
 
 
@@ -31,6 +32,7 @@ this.state={};
   return(
 <div className="">
 
+<BarraResponsive/>
 <Barra/>
 <hr/>
 <div className=" container justify-content-center">
