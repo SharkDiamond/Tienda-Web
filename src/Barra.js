@@ -27,8 +27,9 @@ this.state={};
 
 
   return(
-<div className="nav  justify-content-center d-none d-lg-block d-xl-block">
+<div className="nav justify-content-center">
 
+<div className="d-none d-lg-none d-xl-block">
 <Nav pills >
 
 
@@ -55,7 +56,7 @@ this.state={};
 </Nav>
 
 
-
+</div>
     </div>
   );
 

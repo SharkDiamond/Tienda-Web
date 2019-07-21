@@ -20,7 +20,7 @@ color: rgb(4, 71, 110);
 
 
     .fondo_mensaje{
-
+      transition: 1250ms;
 background-color: rgba(27, 233, 252, 0.308);
 
 
@@ -42,4 +42,28 @@ height: 450px;
 
 }
 
+
+.color_mensaje{
+
+transition: 1250ms;
+background-color: black;
+}
+
+
+.color_df{
+
+
+  background-color: rgba(27, 233, 252, 0.308);
+
+
+}
+
+
+.color_df1{
+
+transition: 1250ms;
+  background-color: rgba(255, 199, 94, 0.973);
+
+
+}
 

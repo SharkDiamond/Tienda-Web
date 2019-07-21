@@ -35,11 +35,12 @@ this.state={};
 <BarraResponsive/>
 <Barra/>
 <hr/>
-<div className=" container justify-content-center">
+<div className="container justify-content-center">
 
 
 <Mensaje texto="Bienvenido A Lutius Tu Tienda De Confianza"/>
-<GrupoCartas/>
+<GrupoCartas imagenCarta1="https://fscl01.fonpit.de/userfiles/7446224/image/xiaomi-redmi-7/AndroidPIT-xiaomi-redmi-7-hero-w810h462.jpg" imagenCarta2="https://i.blogs.es/559d1f/img_2834/1366_2000.jpg" imagenCarta3="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKAa4nvopwwrEY6GsNc0_B9U9S4fZ-pWCZ8VU2v6R6NmGh0q_bQ"
+tituloCarta1="Xiaomi Redmin 7" tituloCarta2="Iphone 9" tituloCarta3="Asuszone" precioanteriocarta1="600$" precioanteriocarta2="120$" precioanteriocarta3="700$"/>
 <div className="m-5"><Slider/></div>
 <PiePagina/>
 
