@@ -22,10 +22,10 @@ this.state={};
     const carta=(
 
 <div className="card tamaño_cartas m-3 ">
-    <img src="https://elandroidelibre.elespanol.com/wp-content/uploads/2018/04/huawei-p20-pro-1.jpg" class="card-img-top border border-dark rounded-top" width="3000px" height="188px" alt="..."/>
+    <img src={this.props.imagenCarta1} class="card-img-top border border-dark rounded-top" width="3000px" height="188px" alt="..."/>
     <div className="card-body text-center border-left border-right border-bottom border-dark  rounded-bottom">
-      <h5 className="card-title text-center letra">huawei Mate20 Pro</h5>
-      <p className="card-text text-center letra"><strike>500$</strike> ahora 400$</p>
+      <h5 className="card-title text-center letra">{this.props.tituloCarta1}</h5>
+      <p className="card-text text-center letra"><strike>{this.props.precioanteriocarta1}</strike> ahora 400$</p>
      <Button color="success" ><span className="letra">Echar Un Vistazo</span></Button>
     </div>
   </div>
@@ -38,10 +38,10 @@ this.state={};
     const carta2=(
 
       <div className="card tamaño_cartas m-3 ">
-          <img src="http://mntech.es/wp-content/uploads/2019/04/3aed3844-3d92-11e9-9798-f85edb62de22.jpg" class="card-img-top border border-dark rounded-top" width="10px" height="200px" alt="..."/>
+          <img src={this.props.imagenCarta2} class="card-img-top border border-dark rounded-top" width="10px" height="200px" alt="..."/>
           <div className="card-body text-center border-left border-right border-bottom border-dark  rounded-bottom">
-            <h5 className="card-title text-center letra">Xiaomi Redmi 7</h5>
-            <p className="card-text text-center letra"><strike>150$</strike> ahora 90$</p>
+            <h5 className="card-title text-center letra">{this.props.tituloCarta2}</h5>
+            <p className="card-text text-center letra"><strike>{this.props.precioanteriocarta2}</strike> ahora 90$</p>
            <Button color="success" ><span className="letra">Echar Un Vistazo</span></Button>
           </div>
         </div>
@@ -54,10 +54,10 @@ this.state={};
           const carta3=(
 
             <div className="card tamaño_cartas m-3 ">
-                <img src="https://assets.pcmag.com/media/images/546709-samsung-galaxy-s10.jpg?width=810&height=456" class="card-img-top border border-dark rounded-top" width="10px" height="200px" alt="..."/>
+                <img src={this.props.imagenCarta3} class="card-img-top border border-dark rounded-top" width="10px" height="200px" alt="..."/>
                 <div className="card-body text-center border-left border-right border-bottom border-dark  rounded-bottom">
-                  <h5 className="card-title text-center letra">Samsung Galaxy S10</h5>
-                  <p className="card-text text-center letra"><strike>600$</strike> ahora 490$</p>
+                  <h5 className="card-title text-center letra">{this.props.tituloCarta3}</h5>
+                  <p className="card-text text-center letra"><strike>{this.props.precioanteriocarta3}</strike> ahora 490$</p>
                  <Button color="success" ><span className="letra">Echar Un Vistazo</span></Button>
                 </div>
               </div>

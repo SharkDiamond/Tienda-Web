@@ -22,7 +22,7 @@ export default class BarraResponsive extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div   className="d-lg-none d-xl-block">
         <Navbar color="faded">
           <NavbarBrand href="/" className="mr-auto">reactstrap</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
