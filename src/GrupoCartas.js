@@ -72,8 +72,8 @@ this.state={};
 <div className="fondo_mensaje border rounded  border-dark m-1">
 
 
-
-<h1 className="text-center letra_texto">Ofertas</h1>
+<br></br>
+<h1 className="text-center letra_texto display-4">{this.props.titulo}</h1>
 <div className="container">
 <div className="row">
 
