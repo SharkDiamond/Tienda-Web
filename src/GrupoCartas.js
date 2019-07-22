@@ -47,20 +47,21 @@ render() {
 
 <div className="cold-4">
 
-<Carta imagenCarta="https://cdn2.cnet.com/img/vHyu3R0p_9WoRK327bCMs58xBPU=/1600x900/2018/12/04/0e6c5e54-4454-442d-b7af-f508a8df3026/samsung-s9-3.jpg" tituloCarta="P20 Pro"  precio="200" precioanteriorcarta="600"/>
+
+<Carta imagenCarta={this.props.imagencarta1}  tituloCarta={this.props.titulocarta1} descripcion={this.props.descripcioncarta1}/>
+
 
 </div>
 
 <div className="cold-4">
 
-
-<Carta imagenCarta="https://cdn2.cnet.com/img/vHyu3R0p_9WoRK327bCMs58xBPU=/1600x900/2018/12/04/0e6c5e54-4454-442d-b7af-f508a8df3026/samsung-s9-3.jpg" tituloCarta="P20 Pro" precio="200" precioanteriorcarta="600"/>
-
+<Carta imagenCarta={this.props.imagencarta2}  tituloCarta={this.props.titulocarta2} descripcion={this.props.descripcioncarta2}/>
 </div>
 
 <div className="cold-4">
 
-<Carta imagenCarta="https://cdn2.cnet.com/img/vHyu3R0p_9WoRK327bCMs58xBPU=/1600x900/2018/12/04/0e6c5e54-4454-442d-b7af-f508a8df3026/samsung-s9-3.jpg" tituloCarta="P20 Pro"  precio="200"  precioanteriorcarta="600"/>
+
+<Carta imagenCarta={this.props.imagencarta3}  tituloCarta={this.props.titulocarta3} descripcion={this.props.descripcioncarta3}/>
 
 </div>
 

@@ -58,7 +58,7 @@ const carta=(
 <img src={this.props.imagenCarta} class="card-img-top" alt="..."  height="200px" width="200px"/>
 <div className="card-body border text-center color_df">
 <div className="card-title text-center  letra h5" onMouseMove={this.color6} onMouseOut={this.color7}>{this.props.tituloCarta}</div>
-<div className="card-text texto text-dark letra text-center"   onMouseMove={this.color8} onMouseOut={this.color9}>Antes <strike>{this.props.precioanteriorcarta}</strike>$ ahora {this.props.precio}$</div>
+<div className="card-text texto text-dark letra text-center"   onMouseMove={this.color8} onMouseOut={this.color9}>{this.props.descripcioncarta}</div>
 <br></br>
 <button className="btn btn bg-success letra text-white">Hechar un vistazo</button>
 </div>
