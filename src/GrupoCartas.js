@@ -36,32 +36,32 @@ color2(e){
 render() {
     
   return(
-<div className="color_df" >
+<div className="color_df " >
 
 
 <h1 className="display-2 text-center  letra_texto" onMouseMove={this.color1} onMouseOut={this.color2}>Ofertas</h1>
 
 <div className="container m-1">
 
-<div className="row">
+<div className="row justify-content-center">
 
 <div className="cold-4">
 
 
-<Carta imagenCarta={this.props.imagencarta1}  tituloCarta={this.props.titulocarta1} descripcion={this.props.descripcioncarta1}/>
+<Carta imagenCarta={this.props.imagencarta1}  tituloCarta={this.props.titulocarta1} descripcioncarta={this.props.descripcioncarta1}/>
 
 
 </div>
 
 <div className="cold-4">
 
-<Carta imagenCarta={this.props.imagencarta2}  tituloCarta={this.props.titulocarta2} descripcion={this.props.descripcioncarta2}/>
+<Carta imagenCarta={this.props.imagencarta2}  tituloCarta={this.props.titulocarta2} descripcioncarta={this.props.descripcioncarta2}/>
 </div>
 
 <div className="cold-4">
 
 
-<Carta imagenCarta={this.props.imagencarta3}  tituloCarta={this.props.titulocarta3} descripcion={this.props.descripcioncarta3}/>
+<Carta imagenCarta={this.props.imagencarta3}  tituloCarta={this.props.titulocarta3} descripcioncarta={this.props.descripcioncarta3}/>
 
 </div>
 
