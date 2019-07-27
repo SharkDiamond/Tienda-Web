@@ -21,7 +21,7 @@ color: rgb(4, 71, 110);
 
     .fondo_mensaje{
       transition: 1250ms;
-background-color: rgba(27, 233, 252, 0.308);
+      background-color: rgb(245, 252, 248);
 
 
     }
@@ -53,7 +53,7 @@ background-color: black;
 .color_df{
 
 
-  background-color: rgba(27, 233, 252, 0.308);
+  background-color: rgb(245, 252, 248);
 
 
 }

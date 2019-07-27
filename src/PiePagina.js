@@ -22,11 +22,11 @@ this.state={};
 
 
   return(
-<div className="container-fluid border border-dark">
+<div className="container-fluid border border-dark bg-white">
 
 
-<p className="display-1 text-center letra">Tu Tienda De Confianza</p>
-<p className="display-4 text-center letra">Redes Sociales</p>
+<p className="display-1 text-center letra_texto">Tu Tienda De Confianza</p>
+<p className="display-4 text-center letra_texto">Redes Sociales</p>
 
 
 <div className="row justify-content-center">

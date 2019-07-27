@@ -27,7 +27,7 @@ this.state={};
 
 
   return(
-<div className="Fondo">
+<div className="">
 
 <Principal/>
 

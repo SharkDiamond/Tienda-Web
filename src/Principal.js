@@ -34,9 +34,8 @@ this.state={};
 
 <BarraResponsive/>
 <Barra/>
-<hr/>
-<div className="container justify-content-center">
 
+<div className="container justify-content-center">
 
 <Mensaje texto="Bienvenido A Lutius"/>
 
