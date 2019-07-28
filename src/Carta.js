@@ -54,7 +54,7 @@ color6(e){
 
   
 const carta=(
-<div className="card m-1  border-dark rounded color_df">
+<div className="card m-1 border-dark rounded color_df">
 <img src={this.props.imagenCarta} class="card-img-top" alt="..."  height="200px" width="200px"/>
 <div className="card-body border text-center color_df">
 <div className="card-title text-center  letra h5" onMouseMove={this.color6} onMouseOut={this.color7}>{this.props.tituloCarta}</div>

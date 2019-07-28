@@ -56,7 +56,7 @@ handlecambiacolor2(e) {
 
 
   render() {
-
+//Mensajes
 const mensaje=(<h1 className="letra_texto text-center display-3 ">{this.props.texto}</h1>);
 
 const mensajePequeño=(<h1 className="letra_texto text-center">{this.props.texto}</h1>);
@@ -64,11 +64,12 @@ const mensajePequeño=(<h1 className="letra_texto text-center">{this.props.texto
   return(
 <div className="">
 
-<div className="m-5 color_df d-none d-lg-none d-xl-block" onMouseMove={this.handlecambiacolor1} onMouseOut={this.handlecambiacolor2}>
+<div className="m-5 color_df d-none d-md-block" onMouseMove={this.handlecambiacolor1} onMouseOut={this.handlecambiacolor2}>
 {mensaje}
 </div>
 
-<div className="m-5 color_df d-sm-block d-lg-none" onMouseMove={this.handlecambiacolor3} onMouseOut={this.handlecambiacolor4}>
+
+<div className="m-5 color_df d-sm-none" onMouseMove={this.handlecambiacolor3} onMouseOut={this.handlecambiacolor4}>
 {mensajePequeño}
 </div>
 

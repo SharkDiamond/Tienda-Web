@@ -14,14 +14,14 @@ export default class BarraResponsive extends React.Component {
       collapsed: true
     };
   }
-
+//sm md lg xl
   toggleNavbar() {
     this.setState({
       collapsed: !this.state.collapsed
     });
   }
   render() {
-    return (
+    return (       
       <div className="d-sm-block d-lg-none bg-white">
         <Navbar color="faded">
           <NavbarBrand href="/" className="mr-auto">Lutius</NavbarBrand>
