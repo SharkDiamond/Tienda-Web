@@ -1,0 +1,5 @@
+
+d-sm-none se muestra en pequeño
+pero se oculta en todos los demas tamaños.
+
+d-none   d-md-block se muestra en mediano en bloque y en tamaños superiores.
