@@ -1,0 +1,32 @@
+
+.tama{
+
+font-size: 90px;
+
+}
+
+.tama2{
+
+    font-size: 60px;
+    
+    }
+
+
+
+@media(max-width:576px){
+.tama{
+
+font-size: 30px;
+
+}
+
+.tama2{
+
+    font-size: 25px;
+    
+    }
+    
+
+
+
+}
