@@ -39,7 +39,8 @@ render() {
 <div className="color_df">
 
 
-<h1 className="display-2 text-center  letra_texto" onMouseMove={this.color1} onMouseOut={this.color2}>Ofertas</h1>
+<h1 className="display-2 text-center  letra_texto" onMouseMove={this.color1} onMouseOut={this.color2}>{this.props.TituloPrincipal}</h1>
+
 
 <div className="container">
 
