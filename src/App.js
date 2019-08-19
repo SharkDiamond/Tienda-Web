@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import  Principal  from './Principal.js';
-
+import Celulares from './Celulares';
 
 
 
@@ -29,7 +29,7 @@ this.state={};
   return(
 <div className="">
 
-<Principal/>
+<Celulares/>
 
     </div>
   );
