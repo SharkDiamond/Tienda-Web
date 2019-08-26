@@ -3,7 +3,7 @@ import './App.css';
 
 import  Principal  from './Principal.js';
 import Celulares from './Celulares';
-
+import Computadoras from './Computadoras.js';
 
 
 class App extends React.Component {
@@ -29,7 +29,7 @@ this.state={};
   return(
 <div className="">
 
-<Celulares/>
+<Computadoras/>
 
     </div>
   );
