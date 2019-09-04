@@ -30,7 +30,8 @@ this.state={};
   return(
 <div className="">
 
-<Audifonos/>
+<Computadoras/>
+
 
     </div>
   );
