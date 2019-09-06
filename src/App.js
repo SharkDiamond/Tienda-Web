@@ -32,6 +32,7 @@ this.state={};
   return(
 <div className="">
 <Router>
+
 <Barra/>
 
 
