@@ -56,14 +56,13 @@ carta:"http://pcworld.com.mx/wp-content/uploads/2017/12/gama_alta.jpg"
 <div className="">
 
 
-<Barra/>
-<BarraResponsive/>
+
+
 
 <div className="container justify-contend-center">
 
 <Mensaje texto="Audifonos"/>
 
-<button onClick={this.CambiaEstadocarta}>Cambiar Imagen</button>
 
 <div className="ml-3 mr-3 mt-4 mb-5">
 

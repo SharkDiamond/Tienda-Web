@@ -33,7 +33,7 @@ this.handlecambiacolor4 = this.handlecambiacolor4.bind(this);
 
 handlecambiacolor2(e) {
 
-  e.target.className="fondo_mensaje  letra_texto text-center display-3";
+  e.target.className="fondo_mensaje  letra_texto text-center display-1";
  
 
  }
@@ -57,7 +57,7 @@ handlecambiacolor2(e) {
 
   render() {
 //Mensajes
-const mensaje=(<h1 className="letra_texto text-center display-3 ">{this.props.texto}</h1>);
+const mensaje=(<h1 className="letra_texto text-center display-1 ">{this.props.texto}</h1>);
 
 const mensajePequeño=(<h1 className="letra_texto text-center">{this.props.texto}</h1>);
 

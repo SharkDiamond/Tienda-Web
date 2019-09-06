@@ -38,7 +38,7 @@ this.state={};
 <div className="">
 
 
-<Barra/>
+
 <BarraResponsive/>
 
 <div className="container justify-contend-center">
