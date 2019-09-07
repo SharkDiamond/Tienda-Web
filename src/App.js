@@ -3,10 +3,10 @@ import './App.css';
 import  Principal  from './Principal';
 import Celulares from './Celulares.js';
 import Computadoras from './Computadoras';
-import Audifonos from './Audifonos';
+import Audiculares from './Audiculares';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Barra from './Barra';
-
+import Hardaware from './Hardaware';
 
 
 class App extends React.Component {
@@ -39,7 +39,8 @@ this.state={};
 <Route path="/" exact component={Principal}/>
 <Route path="/Computadoras" exact component={Computadoras}/>
 <Route path="/Telefonos" exact component={Celulares}/>
-<Route path="/Audiculares" exact component={Audifonos}/>
+<Route path="/Audiculares" exact component={Audiculares}/>
+<Route path="/Hardware" exact component={Hardaware}/>
 </Router>
     </div>
 

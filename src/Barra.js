@@ -77,9 +77,9 @@ rutas:"/Principal"
 
 
 <NavItem>
-<NavLink href="#">
-<span className="Letra letra_texto"><img src="https://image.flaticon.com/icons/svg/1792/1792467.svg" width="50px" height="50px"/> Hardware</span>
-</NavLink>
+<Link to="/Hardware">
+<span className="Letra letra_texto"><img src="https://image.flaticon.com/icons/svg/1792/1792467.svg" width="50px" height="50px" className="mr-1 ml-3"/> Hardware</span>
+</Link>
 </NavItem>
 
 

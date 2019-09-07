@@ -39,8 +39,6 @@ this.state={};
 
 
 
-<BarraResponsive/>
-
 <div className="container justify-contend-center">
 
 <Mensaje texto="Computadoras"/>
