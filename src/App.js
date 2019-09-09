@@ -7,7 +7,7 @@ import Audiculares from './Audiculares';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Barra from './Barra';
 import Hardaware from './Hardaware';
-
+import BarraResponsive from './BarraResponsive';
 
 class App extends React.Component {
 
@@ -34,7 +34,7 @@ this.state={};
 <Router>
 
 <Barra/>
-
+<BarraResponsive/>
 
 <Route path="/" exact component={Principal}/>
 <Route path="/Computadoras" exact component={Computadoras}/>
